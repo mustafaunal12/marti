@@ -1,0 +1,29 @@
+{
+  "name": "marti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha Tests/*.js --reporter spec",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafaunal12/marti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafaunal12/marti/issues"
+  },
+  "homepage": "https://github.com/mustafaunal12/marti#readme",
+  "devDependencies": {
+    "mocha": "^7.2.0",
+    "nyc": "^15.0.0",
+    "mocha-junit-reporter": "^1.23.3"
+  },
+  "dependencies": {
+    "eslint": "^7.1.0",
+    "eslint-plugin-jsdoc": "^26.0.0"
+  }
+}

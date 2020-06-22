@@ -1,0 +1,19 @@
+{
+	"source": {
+		"include": [
+			"."
+		],
+		"exclude": [
+			"*/node_modules/",
+			"*/out/",
+			"*/logs/"
+		]
+	},
+	"templates": {
+		"cleverLinks": true,
+		"monospaceLinks": true,
+		"default": {
+			"outputSourceFiles": true
+		}
+	}
+}
