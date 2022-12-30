@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/mustafaunal12/marti#readme",
   "devDependencies": {
-    "mocha": "^7.2.0",
+    "mocha": "^10.2.0",
     "nyc": "^15.0.0",
     "mocha-junit-reporter": "^1.23.3"
   },
